@@ -1,8 +1,6 @@
-package io.javaproj.User;
+package io.javaproj.model.User;
 
 import io.javaproj.Constants.Const;
-import jdk.nashorn.internal.objects.annotations.Getter;
-import jdk.nashorn.internal.objects.annotations.Setter;
 import org.springframework.data.annotation.Id;
 
 import java.util.UUID;

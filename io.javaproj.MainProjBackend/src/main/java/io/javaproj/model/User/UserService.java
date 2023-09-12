@@ -1,4 +1,4 @@
-package io.javaproj.User;
+package io.javaproj.model.User;
 
 import io.javaproj.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

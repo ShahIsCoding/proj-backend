@@ -1,6 +1,6 @@
 package io.javaproj.repository;
 
-import io.javaproj.User.User;
+import io.javaproj.model.User.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
