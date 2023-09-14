@@ -1,9 +1,11 @@
 package io.javaproj.model.User;
 
-import io.javaproj.Constants.Const;
+import io.javaproj.Constants.ProjConstants;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.UUID;
+@Document(collection = "users")
 public class User {
     @Id
     private String id;
@@ -13,7 +15,7 @@ public class User {
     public User() {}
 
     public User(String username, String password) {
-        setId(Const.USER+ ":"+UUID.randomUUID().toString());
+        setId(ProjConstants.USER+":"+UUID.randomUUID().toString());
         this.username = username;
         this.password = password;
     }
